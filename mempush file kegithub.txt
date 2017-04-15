@@ -1,0 +1,13 @@
+git add .enter
+
+git commit
+
+terus konfigurasi email dan username
+
+terus buat commit
+
+esc :wq
+
+git remote -v
+git status
+git push origin master
