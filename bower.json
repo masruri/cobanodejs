@@ -1,0 +1,17 @@
+{
+  "name": "kopdarnodejs",
+  "description": "Aplikasi kopdar nodemysql",
+  "main": "index.js",
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

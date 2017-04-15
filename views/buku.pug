@@ -1,0 +1,31 @@
+extends layout
+block content
+	div.panel.panel-default
+		div.panel-heading
+			h4 Data Buku
+
+		div.panel-body
+			a(href="/buku/tambah").btn.btn-xs.btn-success Tambah Buku
+			br
+			table.table.table-responsive.table-striped
+				thead
+					th #
+					th Nama
+					th Alamat
+					th Jenis Kelamain
+					th Terlahir Pada
+					th(style='align:center') Aksi
+				tbody
+					each buku in data
+						tr
+							td=buku.id_anggota
+							td=buku.nama
+							td=buku.alamat
+							td=buku.jenis_kelamin
+							td=buku.created_at
+							td
+								a(href="/buku/" +buku.id_anggota + "/edit").btn.btn-xs.btn-warning Edit
+							td
+								a(href="/buku/" +buku.id_anggota + "/delete" onclick="return confirm (\"Apakah anda yakin\")").btn.btn-xs.btn-danger Delete
+
+

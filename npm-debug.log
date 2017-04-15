@@ -1,0 +1,36 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'start' ]
+2 info using npm@3.10.10
+3 info using node@v6.9.4
+4 warn invalid config registry=""
+5 warn invalid config Must be a full url with 'http://'
+6 verbose stack Error: Failed to parse json
+6 verbose stack Unexpected token '/' at 16:5
+6 verbose stack     // "mongoose": "^4.9.3",
+6 verbose stack     ^
+6 verbose stack     at parseError (C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:390:11)
+6 verbose stack     at parseJson (C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:79:23)
+6 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:48:5
+6 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\graceful-fs.js:78:16
+6 verbose stack     at tryToString (fs.js:455:3)
+6 verbose stack     at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:442:12)
+7 verbose cwd D:\kopdarnodejs
+8 error Windows_NT 6.1.7601
+9 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "start"
+10 error node v6.9.4
+11 error npm  v3.10.10
+12 error file D:\kopdarnodejs\package.json
+13 error code EJSONPARSE
+14 error Failed to parse json
+14 error Unexpected token '/' at 16:5
+14 error     // "mongoose": "^4.9.3",
+14 error     ^
+15 error File: D:\kopdarnodejs\package.json
+16 error Failed to parse package.json data.
+16 error package.json must be actual JSON, not just JavaScript.
+16 error
+16 error This is not a bug in npm.
+16 error Tell the package author to fix their package.json file. JSON.parse
+17 verbose exit [ 1, true ]
