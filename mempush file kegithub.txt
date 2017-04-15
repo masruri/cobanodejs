@@ -1,8 +1,12 @@
-git add .enter
+git remote (enter
+
+git add  .(enter
 
 git commit
 
 terus konfigurasi email dan username
+
+git commit -m 'komentar' -a
 
 terus buat commit
 

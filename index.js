@@ -25,6 +25,8 @@ app.use(bodyParser.urlencoded({
 	extended : true
 }));
 
+// barurieorowei
+
 app.get("/",home.index);
 app.get("/buku",buku.index);
 app.get("/buku/tambah",buku.tambah);

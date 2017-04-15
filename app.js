@@ -15,6 +15,9 @@ var app = express();
 app.set('view',path.join(__dirname, 'views'));
 app.set('view eingine','jade');
 
+//line baru
+
+
 //app.use favicon
 app.use(logger('dev')); 
 app.use(bodyParser.json());
